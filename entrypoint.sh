@@ -7,7 +7,7 @@ PG_CONFIG_DIR=/etc/pgbouncer
 PG_USER=postgres
 
 if [ ! -f ${PG_CONFIG_DIR}/pgbouncer.ini ]; then
-  echo "create pgbouncer config in ${PG_CONFIG_DIR}"
+  echo "AirService: create pgbouncer config in ${PG_CONFIG_DIR}"
   mkdir -p ${PG_CONFIG_DIR}
 
   printf "\
